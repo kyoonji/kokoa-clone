@@ -1,0 +1,105 @@
+.user-component,
+.user-component__column:first-child,
+.friends-screen__channel__list{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.user-component__avatar {
+    width:65px;
+    height:65px;
+    border-radius: 27px;
+    margin-right: 20px;
+}
+
+.user-component__title {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.user-component__subtitle {
+    margin-top: 7px;
+    color: rgba(0,0,0,0.5);
+}
+
+.user-component__avatar__xl{
+    width: 70px;
+    height: 70px;
+}
+
+.friends-screen__channel {
+    border-top:1px solid rgba(0,0,0,0.1);
+    padding: 15px;
+    padding-bottom: 0px;
+    color: rgba(0,0,0,0.4);
+    font-size: 13px;
+}
+
+.friends-screen__channel__img {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+.friends-screen__channel{
+    display: flex;
+    justify-content: space-between;
+}
+
+.friends-screen__channel__list h6{
+    font-size: 17px
+}
+
+.friends-screen__channel__etc {
+    color: rgba(0,0,0,0.4);
+    font-size:15px;
+}
+
+.friends-screen__channel__etc {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.friends-screen__channel__etc span{
+    padding: 4px;
+}
+
+.chat-screen__subtitle{
+    font-size: 60%;
+    background-color: tomato;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+}
+
+.chats-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chats-title span {
+    color:rgba(0,0,0,0.4);
+}
+
+.chats-subtitle {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.chats-subtitle span{
+    margin-left:auto;
+}
+
+.user-component__text {
+    width:100%;
+}
+    

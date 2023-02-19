@@ -1,0 +1,34 @@
+.find-icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.find-icons div{
+    display: flex;
+    flex-direction: column;
+}
+
+.find-recommend {
+    display: flex;
+    height: 200px;
+    border: 1px solid rgba(0,0,0,0.3);
+    padding: 10px;
+}
+
+.find__notification{
+    color: tomato;
+    font-size:x-large;
+    display: flex;
+    position: absolute;
+    right: 20px;
+    top: 32px;
+}
+
+.find-recommend :nth-child(2) span{
+    display: flex;
+}
+
+.find-component span{
+    color: rgba(0,0,0,0.4);
+}
