@@ -24,11 +24,11 @@
     width: 15px;
     height: 15px;
     border-radius: 7.5px;
-    display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     font-weight: 500;
+    display: flex;
     position: absolute;
     left: 10px;
     bottom: 10px;

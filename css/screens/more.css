@@ -1,0 +1,51 @@
+.find-icons__icons {
+    padding-bottom: 45px;
+}
+
+.more-component {
+    padding-right: 10px;
+}
+
+.more__notification__{
+    color: tomato;
+    font-size:50px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    left: 208px;
+    top: 180px;
+}
+
+.user-component__subtitle i{
+    color: tomato;
+    opacity: 0.7;
+}
+
+.suggestion-head {
+    border-top: 1px solid rgba(0,0,0,0.1);
+    margin: 10px;
+    padding: 20px 10px;
+}
+
+.suggestion-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px; 
+}
+
+.suggestion-img {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.suggestion-body__app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(0,0,0,0.4);
+}
+
+.suggestion-body__delete {
+    opacity: 0;
+}
