@@ -3,7 +3,7 @@
 .friends-screen__channel__list{
     display: flex;
     align-items: center;
-    padding: 20px;
+    margin: 20px;
 }
 
 .user-component__avatar {
@@ -30,8 +30,8 @@
 
 .friends-screen__channel {
     border-top:1px solid rgba(0,0,0,0.1);
-    padding: 15px;
-    padding-bottom: 0px;
+    margin: 10px;
+    padding: 10px;
     color: rgba(0,0,0,0.4);
     font-size: 13px;
 }
