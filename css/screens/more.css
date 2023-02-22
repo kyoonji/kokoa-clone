@@ -2,6 +2,10 @@
     padding-bottom: 45px;
 }
 
+.find-icons__icon {
+    position: relative;
+}
+
 .more-component {
     padding-right: 10px;
 }
@@ -12,8 +16,8 @@
     display: flex;
     position: absolute;
     justify-content: center;
-    left: 208px;
-    top: 180px;
+    left: 50px;
+    top: -50px;
 }
 
 .user-component__subtitle i{

@@ -9,3 +9,8 @@
 #friends-display-link i{
     color:rgba(0,0,0,0.3);
 }
+
+.user-component__avatar__{
+    height: 70px;
+    width: 85px;
+}

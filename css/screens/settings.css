@@ -1,0 +1,37 @@
+.setting-bar {
+    display: flex;
+    padding:20px;
+    align-content: center;
+    margin: 9px;
+    margin-left: 15px;
+    border-bottom:1px solid rgba(0,0,0,0.03);
+    align-items: center;
+}
+
+.setting-bar i{
+    padding-right: 10px;
+}
+
+.setting-bar__new {
+    color:tomato;
+    padding-left: 5px;
+}
+
+.setting-bar span{
+    font-size: 18px;
+}
+
+.setting-bar__ {
+    border-bottom: none;
+    margin: 0px;
+    padding-left: 34px;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+}
+
+.setting-bar__add {
+    justify-content: space-between;
+}
+
+.setting-bar__add__span {
+    opacity: 0.5;
+}

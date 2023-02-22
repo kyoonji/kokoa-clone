@@ -1,0 +1,27 @@
+.chatsroom-main {
+    background-color: #abc1d1;
+    height: 1100vh;
+}
+
+.header__icons :nth-child(1){
+    padding-right: 5px;
+}
+
+.chats__date {
+    display: flex;
+    justify-content: center;
+}
+
+.chats__date span {
+    background-color: rgba(0,0,0,0.13);
+    color: white;
+    border-radius: 10px;
+    height: 20px;
+    font-size: 15px;
+}
+
+.chatsroom-main .screen-header {
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+}

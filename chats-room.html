@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to KokoaTalk</title>
+    <title>Friends - KokoaTalk</title>
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body>
+<body class="chatsroom-main">
     <div class="status-bar">
         <div class="status-bar__column">
             <span> KT </span>
@@ -23,22 +23,22 @@
             <i class="fa-solid fa-bolt-lightning"></i>        
         </div>
     </div> 
+
+<header class="screen-header">
+    <a href="chats.html"><i class="fa-solid fa-chevron-left header__icons"></i></a>
+        <h1 class="header__title">효리</h1>
+        <div class="header__icons">
+            <span> <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+                <i class="fa-solid fa-bars fa-lg"></i></span>
+        </div>
+</header>
+
+<div class="chats__date">
+    <span>Monday, February 20, 2023</span>
+</div>
     
-    <header class="welcome-header">
-        <h1 class="welcome-header__title">Welcome to KakaoTalk</h1>
-        <p class="welcome-header__text">
-            If you have a Kakao Account, 
-            log in with your email or phone number.</p>
-    </header>
-
-    <form action="friends.html" method="get" id="login-form">
-        <input name="username" type="text" placeholder="Email or phone number">
-        <input name="password" type="password" placeholder="Password">
-        <input type="submit" value="Log in">
-        <a href="#">Find Kakao Account or password</a>
-
-    </form>
 
     <script src="https://kit.fontawesome.com/375b70b929.js" 
-        crossorigin="anonymous"></script>
+    crossorigin="anonymous"></script>
+</body>
 </html>
